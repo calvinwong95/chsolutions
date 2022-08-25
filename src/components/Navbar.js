@@ -1,23 +1,43 @@
 import React from "react";
 
-const Navbar = () => {
+const Navbar = ({ setPageState }) => {
   return (
     <div
       style={{
-        height: "8vh",
+        height: "10vh",
         display: "flex",
         alignItems: "center",
         paddingLeft: "30px",
         paddingRight: "30px",
-        justifyContent: "flex-end",
+        justifyContent: "space-between",
       }}
     >
+      {/* company logo */}
+      <div
+        style={{
+          width: "60px",
+          height: "60px",
+          borderRadius: "50%",
+          backgroundColor: "black",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <img
+          src={require("../assets/ch.png")}
+          alt=""
+          wdith="40px"
+          height="40px"
+        />
+      </div>
       <div
         style={{
           width: "25%",
         }}
       >
         <ul
+          className="navbar-nav"
           style={{
             display: "flex",
             flexDirection: "row",
@@ -25,9 +45,15 @@ const Navbar = () => {
             listStyle: "none",
           }}
         >
-          <li className="navButton">About Me</li>
-          <li className="navButton">Work</li>
-          <li className="navButton">Contact</li>
+          <li className="nav-item">
+            <a onClick={() => setPageState("about-me")}>About Me</a>
+          </li>
+          <li className="nav-item">
+            <a onClick={() => setPageState("work")}>Work</a>
+          </li>
+          <li className="nav-item">
+            <a onClick={() => setPageState("contact")}>Contact</a>
+          </li>
         </ul>
       </div>
     </div>
