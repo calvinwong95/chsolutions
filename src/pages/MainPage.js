@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
+import AboutMe from "./AboutMe";
 
 const MainPage = () => {
   const [pageState, setPageState] = useState("default");
@@ -19,7 +20,9 @@ const MainPage = () => {
         }}
       >
         <div className="containerLeft"></div>
-        <div className="containerRight"></div>
+        <div className="containerRight">
+          {pageState === "about-me" && <AboutMe></AboutMe>}
+        </div>
       </div>
     </div>
   );

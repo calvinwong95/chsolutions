@@ -13,6 +13,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -51,4 +52,8 @@ code {
 
   flex:1;
   background: blue;
+}
+
+.about-me-container {
+  padding: 50px;
 }
