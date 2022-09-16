@@ -23,6 +23,7 @@ const Navbar = ({ setPageState }) => {
           alignItems: "center",
           justifyContent: "center",
         }}
+        onClick={() => setPageState("main-page")}
       >
         <img
           src={require("../assets/ch.png")}
@@ -46,13 +47,19 @@ const Navbar = ({ setPageState }) => {
           }}
         >
           <li className="nav-item">
-            <a onClick={() => setPageState("about-me")}>About Me</a>
+            <a href="/#" onClick={() => setPageState("about-me")}>
+              About Me
+            </a>
           </li>
           <li className="nav-item">
-            <a onClick={() => setPageState("work")}>Work</a>
+            <a href="/#" onClick={() => setPageState("work")}>
+              Solutions
+            </a>
           </li>
           <li className="nav-item">
-            <a onClick={() => setPageState("contact")}>Contact</a>
+            <a href="/#" onClick={() => setPageState("contact")}>
+              Contact
+            </a>
           </li>
         </ul>
       </div>

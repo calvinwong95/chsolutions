@@ -1,9 +1,14 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import Navbar from "../components/Navbar";
+import { PageStateContext } from "../context/PageStateContext";
 import AboutMe from "./AboutMe";
+import Work from "./Work";
+import Contact from "./Contact";
+import DefaultPage from "./DefaultPage";
 
 const MainPage = () => {
-  const [pageState, setPageState] = useState("default");
+  const { pageState, setPageState } = useContext(PageStateContext);
+
   return (
     <div
       style={{ width: "100vw", height: "100vh", backgroundColor: "#111116" }}
@@ -16,12 +21,14 @@ const MainPage = () => {
           flexDirection: "row",
           width: "100vw",
           height: "90vh",
-          backgroundColor: "red",
         }}
       >
         <div className="containerLeft"></div>
         <div className="containerRight">
-          {pageState === "about-me" && <AboutMe></AboutMe>}
+          {pageState === "main-page" && <DefaultPage />}
+          {pageState === "about-me" && <AboutMe />}
+          {pageState === "work" && <Work />}
+          {pageState === "contact" && <Contact />}
         </div>
       </div>
     </div>
