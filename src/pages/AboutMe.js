@@ -59,10 +59,11 @@ const AboutMe = () => {
             <br />
             He later on developed interest in engineering sales which lead him
             to work in Sime Darby Industrial selling pump equipments for clients
-            such as Hershey Malaysia, IOI Bunge Loders, Palmaju, PrefChem.
+            <br />
+            ( Hershey Malaysia, IOI Bunge Loders, Palmaju, PrefChem )
             <br />
             <br />
-            During his free time, he self taught web development and thus now
+            During his free time, he self taught web development and now
             ventured his career to frontend developer.
           </h1>
         </motion.div>

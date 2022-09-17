@@ -2,9 +2,12 @@ import React, { useContext } from "react";
 import Navbar from "../components/Navbar";
 import { PageStateContext } from "../context/PageStateContext";
 import AboutMe from "./AboutMe";
-import Work from "./Work";
 import Contact from "./Contact";
 import DefaultPage from "./DefaultPage";
+import Solution from "./Solution";
+
+import Spline from "@splinetool/react-spline";
+import { motion } from "framer-motion";
 
 const MainPage = () => {
   const { pageState, setPageState } = useContext(PageStateContext);
@@ -23,11 +26,20 @@ const MainPage = () => {
           height: "90vh",
         }}
       >
-        <div className="containerLeft"></div>
+        <div className="containerLeft">
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5, delay: 2 }}
+            style={{ width: "100%", height: "100%" }}
+          >
+            <Spline scene="https://prod.spline.design/FPQV2VLoRYVD1v3V/scene.splinecode" />
+          </motion.div>
+        </div>
         <div className="containerRight">
           {pageState === "main-page" && <DefaultPage />}
           {pageState === "about-me" && <AboutMe />}
-          {pageState === "work" && <Work />}
+          {pageState === "work" && <Solution />}
           {pageState === "contact" && <Contact />}
         </div>
       </div>

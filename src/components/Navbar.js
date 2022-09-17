@@ -22,6 +22,7 @@ const Navbar = ({ setPageState }) => {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
+          cursor: "pointer",
         }}
         onClick={() => setPageState("main-page")}
       >
