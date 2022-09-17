@@ -20,17 +20,17 @@ code {
 }
 
 
-.navbar-nav li > a{
+.navbar-nav li > h1{
   color: rgb(215, 215, 215);
   font-size: 1.4rem;
   text-decoration: none;
 }
-.navbar-nav li > a:hover{
+.navbar-nav li > h1:hover{
   color: #FFF;
   cursor: pointer;
 }
 
-.navbar-nav li > a:after {
+.navbar-nav li > h1:after {
     content: '';
     display: block;
     width: 0;
@@ -38,7 +38,7 @@ code {
     background: #FFF;
     transition: width .3s;
 }
-.navbar-nav li > a:hover::after {
+.navbar-nav li > h1:hover::after {
     width: 100%;
   
 }

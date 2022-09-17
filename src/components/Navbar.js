@@ -48,19 +48,13 @@ const Navbar = ({ setPageState }) => {
           }}
         >
           <li className="nav-item">
-            <a href="/#" onClick={() => setPageState("about-me")}>
-              About Me
-            </a>
+            <h1 onClick={() => setPageState("about-me")}>About Me</h1>
           </li>
           <li className="nav-item">
-            <a href="/#" onClick={() => setPageState("work")}>
-              Solutions
-            </a>
+            <h1 onClick={() => setPageState("work")}>Solutions</h1>
           </li>
           <li className="nav-item">
-            <a href="/#" onClick={() => setPageState("contact")}>
-              Contact
-            </a>
+            <h1 onClick={() => setPageState("contact")}>Contact</h1>
           </li>
         </ul>
       </div>
