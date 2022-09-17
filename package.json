@@ -1,7 +1,7 @@
 {
   "name": "chsolutions",
   "version": "0.1.0",
-  "homepage":"https://calvinwong95.github.io/react-gh-pages",
+  "homepage":"https://calvinwong95.github.io/chsolutions",
   "private": true,
   "dependencies": {
     "@splinetool/react-spline": "^2.2.2",
