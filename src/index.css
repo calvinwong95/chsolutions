@@ -43,18 +43,6 @@ code {
   
 }
 
-.containerLeft {
-  width:40vw ;
-  height:90vh;
-  background: #111116;
-}
-
-.containerRight {
-
-  flex:1;
-  background: #111116;
-  overflow-y: auto;
-}
 
 .default-page-container {
   padding: 5em;

@@ -1,9 +1,13 @@
 {
   "name": "chsolutions",
   "version": "0.1.0",
-  "homepage":"https://calvinwong95.github.io/chsolutions",
+  "homepage": "https://calvinwong95.github.io/chsolutions",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/material": "^5.10.5",
+    "@mui/styled-engine-sc": "^5.10.3",
     "@splinetool/react-spline": "^2.2.2",
     "@splinetool/runtime": "^0.9.106",
     "@testing-library/jest-dom": "^5.16.5",
@@ -16,6 +20,7 @@
     "react-router-dom": "6",
     "react-scripts": "5.0.1",
     "redux": "^4.2.0",
+    "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
