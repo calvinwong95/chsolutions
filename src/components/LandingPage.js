@@ -1,6 +1,5 @@
 import { Box } from "@mui/material";
 import React from "react";
-import PlanningSolution from "./PlanningSolution";
 
 const LandingPage = () => {
   return (
@@ -142,8 +141,8 @@ const LandingPage = () => {
             <Box
               sx={{
                 backgroundColor: "lightgray",
-                width: 150,
-                height: 80,
+                width: 140,
+                height: 85,
                 borderRadius: 2,
               }}
             ></Box>
@@ -162,8 +161,8 @@ const LandingPage = () => {
             <Box
               sx={{
                 backgroundColor: "lightgray",
-                width: 150,
-                height: 80,
+                width: 140,
+                height: 60,
                 borderRadius: 2,
               }}
             ></Box>
@@ -180,7 +179,7 @@ const LandingPage = () => {
                 sx={{
                   backgroundColor: "lightgray",
                   width: 70,
-                  height: 70,
+                  height: 40,
                   borderRadius: 2,
                 }}
               ></Box>
@@ -300,7 +299,7 @@ const LandingPage = () => {
               sx={{
                 background:
                   "linear-gradient(to right bottom, #005AA7, #FFFDE4)",
-                width: 150,
+                width: 140,
                 height: 80,
                 borderRadius: 2,
               }}
@@ -321,8 +320,8 @@ const LandingPage = () => {
               sx={{
                 background:
                   "linear-gradient(to right bottom, #430089, #82ffa1)",
-                width: 150,
-                height: 80,
+                width: 140,
+                height: 60,
                 borderRadius: 2,
               }}
             ></Box>
@@ -340,7 +339,7 @@ const LandingPage = () => {
                   background:
                     "linear-gradient(to right bottom, #430089, #82ffa1)",
                   width: 70,
-                  height: 70,
+                  height: 40,
                   borderRadius: 2,
                 }}
               ></Box>

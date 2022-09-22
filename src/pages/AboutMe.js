@@ -1,14 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Box } from "@mui/material";
 
 const AboutMe = () => {
   return (
-    <div className="about-me-container">
+    <Box className="about-me-container" sx={{ p: 5 }}>
       <div
         style={{
           display: "flex",
           flexDirection: "row",
-          columnGap: 50,
           alignItems: "center",
           justifyContent: "space-between",
         }}
@@ -18,7 +18,7 @@ const AboutMe = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.3 }}
         >
-          <h1 style={{ color: "#FFF", fontSize: 24 }}>MECHANICAL ENGINEER</h1>
+          <h1 style={{ color: "#FFF", fontSize: 24 }}>ENGINEER</h1>
         </motion.div>
         <motion.div
           initial={{ opacity: 0 }}
@@ -32,7 +32,7 @@ const AboutMe = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.3, delay: 0.6 }}
         >
-          <h1 style={{ color: "#FFF", fontSize: 24 }}>FRONTEND DEVELOPER</h1>
+          <h1 style={{ color: "#FFF", fontSize: 24 }}>DEVELOPER</h1>
         </motion.div>
       </div>
 
@@ -90,7 +90,7 @@ const AboutMe = () => {
           </h1>
         </motion.div>
       </div>
-    </div>
+    </Box>
   );
 };
 

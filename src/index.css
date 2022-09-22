@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0 ;
   font-family: 'Bellota Text';
+  box-sizing: border-box;
+
 }
 
 body {
@@ -11,6 +13,7 @@ body {
     sans-serif,  'Bellota Text', cursive;;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow:hidden;
 }
 
 
@@ -43,18 +46,6 @@ code {
   
 }
 
-
-.default-page-container {
-  padding: 5em;
-
-
-}
-
-.about-me-container {
-  padding: 5em;
-
-
-}
 
 .work-container {
   padding: 5em;

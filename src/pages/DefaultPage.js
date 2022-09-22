@@ -1,15 +1,16 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Box } from "@mui/material";
 
 const DefaultPage = () => {
   return (
-    <div className="default-page-container">
+    <Box className="default-page-container" sx={{ p: 5 }}>
       <div
         style={{
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
-          height: "50vh",
+          rowGap: "4rem",
         }}
       >
         <div>
@@ -17,6 +18,7 @@ const DefaultPage = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.3, delay: 0.8 }}
+            style={{ marginBottom: "1.5rem" }}
           >
             <h1 style={{ color: "#FFF" }}>WELCOME TO</h1>
           </motion.div>
@@ -47,7 +49,7 @@ const DefaultPage = () => {
           </h1>
         </motion.div>
       </div>
-    </div>
+    </Box>
   );
 };
 

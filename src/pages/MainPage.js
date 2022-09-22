@@ -21,65 +21,76 @@ const MainPage = () => {
   return (
     <Box
       style={{
-        width: "100vw",
         backgroundColor: "#111116",
       }}
     >
-      <Navbar setPageState={setPageState} />
       <Box
-        className="content"
+        style={{
+          width: "100%",
+          minWidth: "400px",
+          paddingTop: "0.5rem",
+          paddingBottom: "0.5rem",
+          paddingLeft: "1rem",
+          paddingRight: "1rem",
+        }}
+      >
+        <Navbar setPageState={setPageState} />
+      </Box>
+      <Box
         style={{
           display: "flex",
           flexDirection: matches ? "row" : "column",
+          height: "100%",
+          width: "100%",
         }}
       >
         <Box
-          sx={{
-            width: matches ? "40%" : "100%",
-            height: "90vh",
+          style={{
+            width: matches ? "50%" : "100%",
+            height: "100vh",
           }}
         >
           {pageState === "main-page" || pageState === "about-me" ? (
             <Box
+              style={{ height: "100%", width: "100%" }}
               component={motion.div}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5, delay: 2 }}
-              sx={{ height: 1 }}
             >
               <Spline scene="https://prod.spline.design/FPQV2VLoRYVD1v3V/scene.splinecode" />
             </Box>
           ) : null}
           {pageState === "work" ? (
             <Box
+              style={{ height: "100%", width: "100%" }}
               component={motion.div}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5, delay: 2 }}
-              sx={{ height: 1 }}
             >
               <Spline scene="https://prod.spline.design/DPYr3EM64eIGHjeS/scene.splinecode" />
             </Box>
           ) : null}
-
           {pageState === "contact" && (
             <Box
+              style={{ height: "100%", width: "100%" }}
               component={motion.div}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5, delay: 2 }}
-              sx={{ height: 1 }}
             >
               <Spline scene="https://prod.spline.design/7FYE-Xma1DX5gMJX/scene.splinecode" />
             </Box>
           )}
         </Box>
         <Box
-          sx={{
+          style={{
+            width: matches ? "50%" : "100%",
+            height: "100vh",
             backgroundColor: "#111116",
-            width: matches ? "60%" : "100%",
-            height: "90vh",
-            overflowY: pageState === "work" ? "auto" : null,
+            overflowY: "auto",
+            paddingBottom: "1rem",
           }}
         >
           {pageState === "main-page" && <DefaultPage />}

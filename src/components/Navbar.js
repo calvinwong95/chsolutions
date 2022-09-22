@@ -4,11 +4,8 @@ const Navbar = ({ setPageState }) => {
   return (
     <div
       style={{
-        height: "10vh",
         display: "flex",
         alignItems: "center",
-        paddingLeft: "30px",
-        paddingRight: "30px",
         justifyContent: "space-between",
       }}
     >
@@ -33,11 +30,7 @@ const Navbar = ({ setPageState }) => {
           height="40px"
         />
       </div>
-      <div
-        style={{
-          width: "25%",
-        }}
-      >
+      <div>
         <ul
           className="navbar-nav"
           style={{
@@ -51,7 +44,12 @@ const Navbar = ({ setPageState }) => {
             <h1 onClick={() => setPageState("about-me")}>About Me</h1>
           </li>
           <li className="nav-item">
-            <h1 onClick={() => setPageState("work")}>Solutions</h1>
+            <h1
+              style={{ marginLeft: "1.5rem", marginRight: "1.5rem" }}
+              onClick={() => setPageState("work")}
+            >
+              Solutions
+            </h1>
           </li>
           <li className="nav-item">
             <h1 onClick={() => setPageState("contact")}>Contact</h1>
