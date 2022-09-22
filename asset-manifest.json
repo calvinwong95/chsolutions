@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/chsolutions/static/css/main.a01f6f87.css",
-    "main.js": "/chsolutions/static/js/main.f85c63d5.js",
+    "main.css": "/chsolutions/static/css/main.b5b14fb2.css",
+    "main.js": "/chsolutions/static/js/main.81ca4e01.js",
     "static/js/526.63dc57f9.chunk.js": "/chsolutions/static/js/526.63dc57f9.chunk.js",
     "static/js/232.0f586be3.chunk.js": "/chsolutions/static/js/232.0f586be3.chunk.js",
     "static/js/787.41f2d6d7.chunk.js": "/chsolutions/static/js/787.41f2d6d7.chunk.js",
-    "static/media/WorkflowSolution.jpg": "/chsolutions/static/media/WorkflowSolution.7a9aa953f45c51bcc883.jpg",
     "static/media/ch.png": "/chsolutions/static/media/ch.e8a2a5441e2eb14aa023.png",
     "index.html": "/chsolutions/index.html",
-    "main.a01f6f87.css.map": "/chsolutions/static/css/main.a01f6f87.css.map",
-    "main.f85c63d5.js.map": "/chsolutions/static/js/main.f85c63d5.js.map",
+    "main.b5b14fb2.css.map": "/chsolutions/static/css/main.b5b14fb2.css.map",
+    "main.81ca4e01.js.map": "/chsolutions/static/js/main.81ca4e01.js.map",
     "526.63dc57f9.chunk.js.map": "/chsolutions/static/js/526.63dc57f9.chunk.js.map",
     "232.0f586be3.chunk.js.map": "/chsolutions/static/js/232.0f586be3.chunk.js.map",
     "787.41f2d6d7.chunk.js.map": "/chsolutions/static/js/787.41f2d6d7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a01f6f87.css",
-    "static/js/main.f85c63d5.js"
+    "static/css/main.b5b14fb2.css",
+    "static/js/main.81ca4e01.js"
   ]
 }
