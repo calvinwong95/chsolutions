@@ -83,7 +83,7 @@ const MainPage = () => {
               >
                 <Spline scene="https://prod.spline.design/7FYE-Xma1DX5gMJX/scene.splinecode" />
               </Box>
-
+            )}
           </Box>
         </Suspense>
 
