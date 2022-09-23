@@ -10,17 +10,16 @@ const Maintenance = () => {
         Trouble in navigating your website and needing to consistently update
         the content? <br /> No worries! <br /> We can do it for you!
       </h3>
-      <ol>
-        <li style={{ color: "white", marginTop: 20, fontSize: 24 }}>
-          WordPress Maintenance
-        </li>
-        <li style={{ color: "white", marginTop: 20, fontSize: 24 }}>
-          Woocommerce Maintenance
-        </li>
-        <li style={{ color: "white", marginTop: 20, fontSize: 24 }}>
-          Content Updates
-        </li>
-      </ol>
+
+      <h1 style={{ color: "white", marginTop: 20, fontSize: 24 }}>
+        1. WordPress Maintenance
+      </h1>
+      <h1 style={{ color: "white", marginTop: 20, fontSize: 24 }}>
+        2. Woocommerce Maintenance
+      </h1>
+      <h1 style={{ color: "white", marginTop: 20, fontSize: 24 }}>
+        3. Content Updates
+      </h1>
     </div>
   );
 };

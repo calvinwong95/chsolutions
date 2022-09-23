@@ -4,13 +4,6 @@ import { motion } from "framer-motion";
 const Contact = () => {
   return (
     <div className="contact-container">
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.5 }}
-      >
-        <h1 style={{ color: "white" }}>Ready to collaborate?</h1>
-      </motion.div>
       <div
         style={{
           display: "flex",
@@ -21,6 +14,13 @@ const Contact = () => {
           rowGap: 50,
         }}
       >
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
+        >
+          <h1 style={{ color: "white" }}>Ready to collaborate?</h1>
+        </motion.div>
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}

@@ -4,7 +4,15 @@ import { Box } from "@mui/material";
 
 const DefaultPage = () => {
   return (
-    <Box className="default-page-container" sx={{ p: 5 }}>
+    <Box
+      className="default-page-container"
+      sx={{
+        p: 5,
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
       <div
         style={{
           display: "flex",
