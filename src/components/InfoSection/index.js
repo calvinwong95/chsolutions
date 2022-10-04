@@ -9,7 +9,7 @@ import {
 } from "./InfoSectionElements";
 import { motion } from "framer-motion";
 import Spline from "@splinetool/react-spline";
-import AboutMe from "../../pages/AboutMe";
+import AboutMe from "../AboutMe/AboutMe.js";
 import Solution from "../Solution";
 import Contact from "../Contact";
 

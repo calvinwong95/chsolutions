@@ -1,6 +1,6 @@
 import React from "react";
-import Home from "../../pages";
-import AboutMe from "../../pages/AboutMe";
+import AboutMeMobile from "../AboutMe/AboutMeMobile";
+import ContactMobile from "../Contact/ContactMobile";
 import DefaultPageMobile from "../DefaultPage/DefaultPageMobile";
 import {
   MobileContainer,
@@ -13,8 +13,8 @@ const MobileSection = () => {
     <MobileContainer>
       <MobileSegment>
         <DefaultPageMobile />
-
-        {/* <AboutMe /> */}
+        <AboutMeMobile />
+        <ContactMobile />
       </MobileSegment>
     </MobileContainer>
   );
