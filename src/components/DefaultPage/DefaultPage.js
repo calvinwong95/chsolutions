@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import { motion } from "framer-motion";
 import { Box } from "@mui/material";
+import { PageStateContext } from "../../context/PageStateContext";
 
 const DefaultPage = () => {
+  const { mobileView } = useContext(PageStateContext);
   return (
     <Box
-      className="default-page-container"
       sx={{
         p: 5,
         display: "flex",
@@ -17,6 +18,7 @@ const DefaultPage = () => {
         style={{
           display: "flex",
           flexDirection: "column",
+
           justifyContent: "space-between",
           rowGap: "4rem",
         }}
@@ -26,7 +28,11 @@ const DefaultPage = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.3, delay: 0.8 }}
-            style={{ marginBottom: "1.5rem" }}
+            style={{
+              marginBottom: "1.5rem",
+              display: "flex",
+              justifyContent: mobileView ? null : "center",
+            }}
           >
             <h1 style={{ color: "#FFF" }}>WELCOME TO</h1>
           </motion.div>
@@ -34,6 +40,10 @@ const DefaultPage = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.3, delay: 1 }}
+            style={{
+              display: "flex",
+              justifyContent: mobileView ? null : "center",
+            }}
           >
             <h1 style={{ color: "#FFF", fontSize: 50 }}>CH SOLUTIONS</h1>
           </motion.div>
@@ -43,7 +53,12 @@ const DefaultPage = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 1.3 }}
-          style={{ display: "flex", flexDirection: "column", rowGap: 10 }}
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            rowGap: 10,
+            alignItems: mobileView ? null : "center",
+          }}
         >
           <h1
             style={{ color: "#FFF", fontSize: 25, textDecoration: "underline" }}

@@ -1,9 +1,9 @@
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import React from "react";
 
 const LandingPage = () => {
   return (
-    <Box className="Landing Page & Website">
+    <Box>
       <h1 style={{ color: "white", textDecoration: "underline" }}>
         {"LANDING PAGE & WEBSITE"}
       </h1>
@@ -28,10 +28,10 @@ const LandingPage = () => {
             padding: 2,
           }}
         >
-          <h3>1. Planning deliverables</h3>
-          <h3>2. Objectives</h3>
-          <h3>3. Target Market</h3>
-          <h3>4. Layout of Website</h3>
+          <h3 style={{ color: "#111116" }}>1. Planning deliverables</h3>
+          <h3 style={{ color: "#111116" }}>2. Objectives</h3>
+          <h3 style={{ color: "#111116" }}>3. Target Market</h3>
+          <h3 style={{ color: "#111116" }}>4. Layout of Website</h3>
         </Box>
       </Box>
       <Box

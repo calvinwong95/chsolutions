@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import LandingPage from "../components/LandingPage";
-import Animation from "../components/Animation";
-import Maintenance from "../components/Maintenance";
+import LandingPage from "./LandingPage";
+import Animation from "./Animation";
+import Maintenance from "./Maintenance";
 import { Box } from "@mui/material";
 
 const Solution = () => {
@@ -19,12 +19,17 @@ const Solution = () => {
     }
   });
   return (
-    <div className="work-container">
+    <>
       <Box
         component={motion.div}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.3, delay: 0.3 }}
+        sx={{
+          width: "100%",
+          height: "100%",
+          overflow: "auto",
+        }}
       >
         {showWork === 1 && (
           <Box
@@ -57,7 +62,7 @@ const Solution = () => {
           </Box>
         )}
       </Box>
-    </div>
+    </>
   );
 };
 
