@@ -1,18 +1,19 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Box } from "@mui/material";
-import { ContactLink, ContactLi } from "./ContactElements";
+import { ContactLink } from "./ContactElements";
 
-const ContactMobile = () => {
+const ContactMobile = ({ id }) => {
   return (
     <Box
+      id={id}
       sx={{
-        overflow: "auto",
         width: "100%",
-        height: "100vh",
+        minHeight: "100%",
         display: "flex",
+        flexDirection: "column",
         alignItems: "center",
-        justifyContent: "center",
+        justifyContent: "flex-start",
         p: 2,
       }}
     >
@@ -72,6 +73,7 @@ const ContactMobile = () => {
           </motion.div>
         </Box>
       </Box>
+      <Box sx={{ marginTop: 30 }}>Click the top icon to see our services!</Box>
     </Box>
   );
 };

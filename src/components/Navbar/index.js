@@ -6,20 +6,19 @@ import {
   NavbarLogo,
   NavbarImage,
   NavbarMenu,
-  NavbarItem,
   NavbarLink,
 } from "./NavbarElements";
-import { FaBars } from "react-icons/fa";
+import { FaConnectdevelop } from "react-icons/fa";
 
-const Navbar = ({ setPageState }) => {
+const Navbar = ({ setPageState, isOpen, toggle }) => {
   return (
     <Nav>
       <NavbarContainer>
         <NavbarLogo onClick={() => setPageState("default")}>
           <NavbarImage src={require("../../assets/ch.png")} alt="" />
         </NavbarLogo>
-        <MobileIcon>
-          <FaBars />
+        <MobileIcon onClick={() => toggle()}>
+          <FaConnectdevelop />
         </MobileIcon>
         <NavbarMenu>
           <NavbarLink onClick={() => setPageState("about-me")}>

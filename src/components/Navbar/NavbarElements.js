@@ -48,7 +48,7 @@ export const NavbarImage = styled.img`
 export const MobileIcon = styled.div`
   display: none;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 900px) {
     display: block;
     position: absolute;
     top: 0;
@@ -69,7 +69,7 @@ export const NavbarMenu = styled.div`
   justify-content: space-between;
   width: 500px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 900px) {
     display: none;
   }
 `;
@@ -78,6 +78,7 @@ export const NavbarLink = styled.h2`
   color: white;
   display: inline-block;
   position: relative;
+  font-size: 20px;
   cursor: pointer;
 
   :after {

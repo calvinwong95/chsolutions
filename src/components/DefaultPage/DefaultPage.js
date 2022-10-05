@@ -18,7 +18,6 @@ const DefaultPage = () => {
         style={{
           display: "flex",
           flexDirection: "column",
-
           justifyContent: "space-between",
           rowGap: "4rem",
         }}

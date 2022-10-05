@@ -3,13 +3,15 @@ import { motion } from "framer-motion";
 import { Box } from "@mui/material";
 import Logo from "../../assets/ch.png";
 import { DefaultPageLogo, DefaultPageLogoGlow } from "./DefaultPageElements";
-const DefaultPageMobile = () => {
+const DefaultPageMobile = ({ id }) => {
   return (
     <Box
+      id={id}
       sx={{
         p: 2,
         display: "flex",
-        alignItems: "center",
+        minHeight: "100vh",
+        alignItems: "flex-start",
         justifyContent: "center",
         pt: 4,
         pb: 4,
@@ -19,7 +21,6 @@ const DefaultPageMobile = () => {
         sx={{
           display: "flex",
           flexDirection: "column",
-
           justifyContent: "space-between",
           rowGap: "4rem",
         }}

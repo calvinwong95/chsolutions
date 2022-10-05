@@ -57,6 +57,10 @@ const Solution = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.3, delay: 0.3 }}
+            sx={{
+              display: "flex",
+              alignSelf: "center",
+            }}
           >
             <Maintenance />
           </Box>

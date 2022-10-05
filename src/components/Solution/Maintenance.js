@@ -1,10 +1,11 @@
+import { Box } from "@mui/material";
 import React from "react";
 
 const Maintenance = () => {
   return (
-    <div className="Maintenance">
+    <Box>
       <h1 style={{ color: "white", textDecoration: "underline" }}>
-        {"Maintenance"}
+        {"MAINTENANCE"}
       </h1>
       <h3 style={{ color: "white", marginTop: 20 }}>
         Trouble in navigating your website and needing to consistently update
@@ -20,7 +21,7 @@ const Maintenance = () => {
       <h1 style={{ color: "white", marginTop: 20, fontSize: 24 }}>
         3. Content Updates
       </h1>
-    </div>
+    </Box>
   );
 };
 

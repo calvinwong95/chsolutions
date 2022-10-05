@@ -1,17 +1,17 @@
 import React from "react";
-import { motion } from "framer-motion";
 import { Box, useMediaQuery } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 
-const AboutMeMobile = () => {
+const AboutMeMobile = ({ id }) => {
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up("md"));
   return (
     <Box
+      id={id}
       sx={{
         mt: 4,
         width: "100%",
-        height: "100vh",
+        minHeight: "100%",
         padding: 2,
       }}
     >
@@ -52,24 +52,6 @@ const AboutMeMobile = () => {
               that can add value to grow your business.
             </h1>
           </Box>
-        </div>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            columnGap: 50,
-            alignItems: "center",
-            justifyContent: "space-between",
-          }}
-        >
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.3 }}
-            style={{ marginTop: 50 }}
-          >
-            <h1 style={{ color: "#FFF", fontSize: 20 }}></h1>
-          </motion.div>
         </div>
       </Box>
     </Box>

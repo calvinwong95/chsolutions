@@ -2,9 +2,9 @@ import React from "react";
 
 const Animation = () => {
   return (
-    <div className="3D Animation">
+    <div>
       <h1 style={{ color: "white", textDecoration: "underline" }}>
-        {"3D Animation"}
+        {"3D ANIMATION"}
       </h1>
       <h3 style={{ color: "white", marginTop: 20, marginBottom: 50 }}>
         We create and design 3D elements to make your website attractive and

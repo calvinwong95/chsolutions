@@ -2,21 +2,21 @@ import React from "react";
 import AboutMeMobile from "../AboutMe/AboutMeMobile";
 import ContactMobile from "../Contact/ContactMobile";
 import DefaultPageMobile from "../DefaultPage/DefaultPageMobile";
-import {
-  MobileContainer,
-  MobileSegment,
-  MobileSpacer,
-} from "./MobileSectionElements";
+import Sidebar from "../Sidebar";
+import { MobileContainer, MobileSegment } from "./MobileSectionElements";
 
-const MobileSection = () => {
+const MobileSection = ({ isOpen, toggle }) => {
   return (
-    <MobileContainer>
-      <MobileSegment>
-        <DefaultPageMobile />
-        <AboutMeMobile />
-        <ContactMobile />
-      </MobileSegment>
-    </MobileContainer>
+    <>
+      <Sidebar isOpen={isOpen} toggle={toggle} />
+      <MobileContainer>
+        <MobileSegment>
+          <DefaultPageMobile id="home" />
+          <AboutMeMobile id="about" />
+          <ContactMobile id="contact" />
+        </MobileSegment>
+      </MobileContainer>
+    </>
   );
 };
 

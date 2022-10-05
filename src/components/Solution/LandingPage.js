@@ -15,6 +15,31 @@ const LandingPage = () => {
           alignItems: "center",
         }}
       >
+        <h4 style={{ fontSize: "18px" }}>
+          We specialize in creating minimalist website design that helps your
+          business stand out from the rest.
+        </h4>
+        <br />
+        <br />
+        <h4 style={{ fontSize: "18px" }}>
+          What we want to achieve for your website:
+        </h4>
+        <br />
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            marginBottom: 10,
+          }}
+        >
+          <h4 style={{ fontSize: "16px" }}>- Target audiences</h4>
+          <h4 style={{ fontSize: "16px" }}>
+            - Values that your company brings
+          </h4>
+          <h4 style={{ fontSize: "16px" }}>- Content that engages users</h4>
+          <h4 style={{ fontSize: "16px" }}>- Call to Action Plan</h4>
+        </Box>
         <h3 style={{ color: "white" }}>
           Our workflow starts with planning and structuring the layout and
           deliverables based on your requirements.
