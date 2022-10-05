@@ -27,21 +27,21 @@ const AboutMe = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.3 }}
           >
-            <h1 style={{ color: "#FFF", fontSize: 24 }}>ENGINEER</h1>
+            <h1 style={{ color: "#FFF" }}>ENGINEER</h1>
           </motion.div>
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.3, delay: 0.3 }}
           >
-            <h1 style={{ color: "#FFF", fontSize: 24 }}>SALES</h1>
+            <h1 style={{ color: "#FFF" }}>SALES</h1>
           </motion.div>
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.3, delay: 0.6 }}
           >
-            <h1 style={{ color: "#FFF", fontSize: 24 }}>DEVELOPER</h1>
+            <h1 style={{ color: "#FFF" }}>DEVELOPER</h1>
           </motion.div>
         </div>
 
@@ -60,7 +60,7 @@ const AboutMe = () => {
             transition={{ duration: 0.3 }}
             style={{ marginTop: 50 }}
           >
-            <h1 style={{ color: "#FFF", fontSize: 20 }}>
+            <h1 style={{ color: "#FFF", fontSize: "24px" }}>
               CH Solutions is founded by Chee Hoe, a graduate with Masters in
               Mechanical Engineering who started his journey as a mechanical
               design engineer in a signage company.
@@ -93,7 +93,7 @@ const AboutMe = () => {
             transition={{ duration: 0.3 }}
             style={{ marginTop: 50 }}
           >
-            <h1 style={{ color: "#FFF", fontSize: 20 }}>
+            <h1 style={{ color: "#FFF", fontSize: "24px" }}>
               With his expertise in the business field and software developing,
               he aims to understand your business model and provide solutions
               that can add value to grow your business.

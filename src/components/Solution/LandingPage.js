@@ -4,24 +4,30 @@ import React from "react";
 const LandingPage = () => {
   return (
     <Box>
-      <h1 style={{ color: "white", textDecoration: "underline" }}>
+      <h1
+        style={{
+          color: "white",
+          textDecoration: "underline",
+          textAlign: "center",
+        }}
+      >
         {"LANDING PAGE & WEBSITE"}
       </h1>
       <Box
         style={{
-          marginTop: 20,
+          marginTop: 30,
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
         }}
       >
-        <h4 style={{ fontSize: "18px" }}>
+        <h4 style={{ fontSize: "24px" }}>
           We specialize in creating minimalist website design that helps your
           business stand out from the rest.
         </h4>
         <br />
         <br />
-        <h4 style={{ fontSize: "18px" }}>
+        <h4 style={{ fontSize: "24px" }}>
           What we want to achieve for your website:
         </h4>
         <br />
@@ -33,14 +39,14 @@ const LandingPage = () => {
             marginBottom: 10,
           }}
         >
-          <h4 style={{ fontSize: "16px" }}>- Target audiences</h4>
-          <h4 style={{ fontSize: "16px" }}>
+          <h4 style={{ fontSize: "20px" }}>- Target audiences</h4>
+          <h4 style={{ fontSize: "20px" }}>
             - Values that your company brings
           </h4>
-          <h4 style={{ fontSize: "16px" }}>- Content that engages users</h4>
-          <h4 style={{ fontSize: "16px" }}>- Call to Action Plan</h4>
+          <h4 style={{ fontSize: "20px" }}>- Content that engages users</h4>
+          <h4 style={{ fontSize: "20px" }}>- Call to Action Plan</h4>
         </Box>
-        <h3 style={{ color: "white" }}>
+        <h3 style={{ color: "white", fontSize: "20px" }}>
           Our workflow starts with planning and structuring the layout and
           deliverables based on your requirements.
         </h3>
@@ -67,7 +73,7 @@ const LandingPage = () => {
           alignItems: "center",
         }}
       >
-        <h3 style={{ color: "white", marginTop: 20 }}>
+        <h3 style={{ color: "white", marginTop: 20, fontSize: "20px" }}>
           Once completed, we will then move to the designing stage of the
           prototype. We will create the mockup and wireframe of your design.
         </h3>
@@ -220,7 +226,7 @@ const LandingPage = () => {
           alignItems: "center",
         }}
       >
-        <h3 style={{ color: "white", marginTop: 20 }}>
+        <h3 style={{ color: "white", marginTop: 20, fontSize: "20px" }}>
           Lastly, we will develop and deliver the finalized product.
         </h3>
         <Box

@@ -28,12 +28,13 @@ const Sidebar = ({ isOpen, toggle }) => {
             style={{
               textDecoration: "underline",
               fontSize: "20px",
-              marginBottom: "4px",
+              marginBottom: "10px",
+              textAlign: "center",
             }}
           >
             Landing Page and Website
           </h4>
-          <h4 style={{ fontSize: "18px" }}>
+          <h4 style={{ textAlign: "center", fontSize: "18px" }}>
             We specialize in creating minimalist website design that helps your
             business stand out from the rest.
           </h4>
@@ -65,15 +66,22 @@ const Sidebar = ({ isOpen, toggle }) => {
               textDecoration: "underline",
               fontSize: "20px",
               marginBottom: "4px",
+              textAlign: "center",
             }}
           >
             3D Animation
           </h4>
-          <h4 style={{ fontSize: "18px" }}>
+          <h4 style={{ fontSize: "18px", textAlign: "center" }}>
             We customize and create 3D components to help your website stand
             out!
           </h4>
-          <Box>
+          <Box
+            sx={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
             <Design
               src={ContactMePicture}
               width="250px"
@@ -94,7 +102,14 @@ const Sidebar = ({ isOpen, toggle }) => {
           >
             Maintenance
           </h4>
-          <h3 style={{ color: "white", marginTop: 20, fontSize: "18px" }}>
+          <h3
+            style={{
+              color: "white",
+              marginTop: 20,
+              fontSize: "18px",
+              textAlign: "center",
+            }}
+          >
             Trouble in navigating your website and needing to consistently
             update the content? <br /> <br />
             No worries! <br /> <br /> We can do it for you!

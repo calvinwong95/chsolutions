@@ -44,7 +44,7 @@ const DefaultPage = () => {
               justifyContent: mobileView ? null : "center",
             }}
           >
-            <h1 style={{ color: "#FFF", fontSize: 50 }}>CH SOLUTIONS</h1>
+            <h1 style={{ color: "#FFF", fontSize: 60 }}>CH SOLUTIONS</h1>
           </motion.div>
         </div>
 
@@ -60,13 +60,17 @@ const DefaultPage = () => {
           }}
         >
           <h1
-            style={{ color: "#FFF", fontSize: 25, textDecoration: "underline" }}
+            style={{
+              color: "#FFF",
+              fontSize: "30px",
+              textDecoration: "underline",
+            }}
           >
             Drive your business to success with our SOLUTIONS
           </h1>
-          <h1 style={{ color: "#FFF", fontSize: 24 }}>LANDING PAGE</h1>
-          <h1 style={{ color: "#FFF", fontSize: 24 }}>WEBSITE</h1>
-          <h1 style={{ color: "#FFF", fontSize: 24 }}>
+          <h1 style={{ color: "#FFF", fontSize: "24px" }}>LANDING PAGE</h1>
+          <h1 style={{ color: "#FFF", fontSize: "24px" }}>WEBSITE</h1>
+          <h1 style={{ color: "#FFF", fontSize: "24px" }}>
             WEBSITE CONTENT MAINTENANCE
           </h1>
         </motion.div>

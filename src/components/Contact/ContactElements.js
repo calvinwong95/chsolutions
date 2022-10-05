@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
-export const ContactLink = styled.h2`
+export const ContactLink = styled.h1`
   color: white;
+  font-size: 24px;
   display: inline-block;
   position: relative;
   cursor: pointer;
