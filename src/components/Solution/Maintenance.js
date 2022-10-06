@@ -4,7 +4,13 @@ import React from "react";
 const Maintenance = () => {
   return (
     <Box>
-      <h1 style={{ color: "white", textDecoration: "underline" }}>
+      <h1
+        style={{
+          color: "white",
+          textDecoration: "underline",
+          textAlign: "center",
+        }}
+      >
         {"MAINTENANCE"}
       </h1>
       <h3 style={{ color: "white", marginTop: 20 }}>

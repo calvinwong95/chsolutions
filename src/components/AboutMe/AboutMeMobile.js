@@ -37,7 +37,13 @@ const AboutMeMobile = ({ id }) => {
           }}
         >
           <Box sx={{ marginTop: 2 }}>
-            <h1 style={{ color: "#FFF", fontSize: 20 }}>
+            <h1
+              style={{
+                color: "#FFF",
+                fontSize: 20,
+                textAlign: "justify",
+              }}
+            >
               CH Solutions is founded by Chee Hoe, a graduate with Masters in
               Mechanical Engineering who started his journey as a mechanical
               design engineer in a signage company.
