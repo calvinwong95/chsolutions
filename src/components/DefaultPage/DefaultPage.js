@@ -28,12 +28,12 @@ const DefaultPage = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.3, delay: 0.8 }}
             style={{
-              marginBottom: "1.5rem",
+              marginBottom: "5rem",
               display: "flex",
               justifyContent: mobileView ? null : "center",
             }}
           >
-            <h1 style={{ color: "#FFF" }}>WELCOME TO</h1>
+            <h1 style={{ color: "#FFF" }}>WELCOME</h1>
           </motion.div>
           <motion.div
             initial={{ opacity: 0 }}
@@ -44,7 +44,7 @@ const DefaultPage = () => {
               justifyContent: mobileView ? null : "center",
             }}
           >
-            <h1 style={{ color: "#FFF", fontSize: 60 }}>CH SOLUTIONS</h1>
+            <h1 style={{ color: "#FFF", fontSize: 24 }}>CHEE HOE</h1>
           </motion.div>
         </div>
 
@@ -59,20 +59,13 @@ const DefaultPage = () => {
             alignItems: mobileView ? null : "center",
           }}
         >
-          <h1
-            style={{
-              color: "#FFF",
-              fontSize: "30px",
-              textDecoration: "underline",
-            }}
-          >
-            Drive your business to success with our SOLUTIONS
-          </h1>
-          <h1 style={{ color: "#FFF", fontSize: "24px" }}>LANDING PAGE</h1>
-          <h1 style={{ color: "#FFF", fontSize: "24px" }}>WEBSITE</h1>
           <h1 style={{ color: "#FFF", fontSize: "24px" }}>
-            WEBSITE CONTENT MAINTENANCE
+            FRONTEND DEVELOPER
           </h1>
+          <h1 style={{ color: "#FFF", fontSize: "24px" }}>
+            WEB APPLICATION DEVELOPER
+          </h1>
+          <h1 style={{ color: "#FFF", fontSize: "24px" }}>WEBSITE CREATOR</h1>
         </motion.div>
       </div>
     </Box>

@@ -61,20 +61,13 @@ const AboutMe = () => {
             style={{ marginTop: 50 }}
           >
             <h1 style={{ color: "#FFF", fontSize: "24px" }}>
-              CH Solutions is founded by Chee Hoe, a graduate with Masters in
-              Mechanical Engineering who started his journey as a mechanical
-              design engineer in a signage company.
-              <br />
-              <br />
-              He later on developed interest in engineering sales which lead him
-              to work in Sime Darby Industrial selling pump equipments for
-              clients
-              <br />
-              ( Hershey Malaysia, IOI Bunge Loders, Palmaju, PrefChem )
-              <br />
-              <br />
-              During his free time, he self taught web development and now
-              ventured his career to frontend developer.
+              Graduated as Mechanical Engineer from University of Nottingham, I
+              have a strong background in engineering principles and technical
+              knowledge. After graduation, I honed my sales skills while working
+              as a sales engineer at Sime Darby Industrial where I adapted
+              business management skills. I then took my career in a new
+              direction by teaching myself web development, which led to my
+              current role as a frontend developer at Invoke.
             </h1>
           </motion.div>
         </div>
@@ -94,9 +87,9 @@ const AboutMe = () => {
             style={{ marginTop: 50 }}
           >
             <h1 style={{ color: "#FFF", fontSize: "24px" }}>
-              With his expertise in the business field and software developing,
-              he aims to understand your business model and provide solutions
-              that can add value to grow your business.
+              With my strong technical background, experience in sales and
+              exceptional negotiating skills, and self-taught coding skills, I
+              am willing to contribute to your organization.
             </h1>
           </motion.div>
         </div>

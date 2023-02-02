@@ -37,7 +37,7 @@ const DefaultPageMobile = ({ id }) => {
               justifyContent: "center",
             }}
           >
-            <h1 style={{ color: "#FFF", fontSize: 30 }}>WELCOME TO</h1>
+            <h1 style={{ color: "#FFF", fontSize: 30 }}>WELCOME </h1>
           </Box>
 
           <DefaultPageLogoGlow>
@@ -45,26 +45,13 @@ const DefaultPageMobile = ({ id }) => {
               <img src={Logo} width={"50px"} height={"50px"} alt="" />
             </DefaultPageLogo>
           </DefaultPageLogoGlow>
-
-          <Box
-            component={motion.div}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.3, delay: 1 }}
-            style={{
-              display: "flex",
-              justifyContent: "center",
-            }}
-          >
-            <h1 style={{ color: "#FFF", fontSize: 34 }}>SOLUTIONS</h1>
-          </Box>
         </Box>
 
         <Box
           component={motion.div}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 0.5, delay: 1.3 }}
+          transition={{ duration: 0.3, delay: 1 }}
           style={{
             display: "flex",
             flexDirection: "column",
@@ -75,17 +62,46 @@ const DefaultPageMobile = ({ id }) => {
           <h1
             style={{
               color: "#FFF",
-              fontSize: 18,
+              fontSize: 24,
+              textAlign: "center",
+
+              marginBottom: 20,
+            }}
+          >
+            CHEE HOE
+          </h1>
+          <h1 style={{ color: "#FFF", fontSize: 20 }}>FRONTEND DEVELOPER</h1>
+          <h1 style={{ color: "#FFF", fontSize: 20 }}>
+            WEB APPLICATION DEVELOPER
+          </h1>
+          <h1 style={{ color: "#FFF", fontSize: 20 }}>WEBSITE MAINTENANCE</h1>
+        </Box>
+        <Box
+          component={motion.div}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.3, delay: 1.2 }}
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            rowGap: 10,
+          }}
+        >
+          <h1
+            style={{
+              color: "#FFF",
+              fontSize: 24,
               textAlign: "center",
               textDecoration: "underline",
               marginBottom: 20,
             }}
           >
-            Drive your business to success with our SOLUTIONS
+            PROFESSIONAL SKILLS
           </h1>
-          <h1 style={{ color: "#FFF", fontSize: 20 }}>LANDING PAGE</h1>
-          <h1 style={{ color: "#FFF", fontSize: 20 }}>WEBSITE</h1>
-          <h1 style={{ color: "#FFF", fontSize: 20 }}>WEBSITE MAINTENANCE</h1>
+          <h1 style={{ color: "#FFF", fontSize: 20 }}>HTML, CSS, JAVASCRIPT</h1>
+          <h1 style={{ color: "#FFF", fontSize: 20 }}>TAILWIND, MATERIAL UI</h1>
+          <h1 style={{ color: "#FFF", fontSize: 20 }}>UI/UX DESIGN, FIGMA</h1>
         </Box>
       </Box>
     </Box>
