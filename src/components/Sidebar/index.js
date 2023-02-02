@@ -5,10 +5,7 @@ import {
   SidebarContainer,
   Icon,
   CloseIcon,
-  SidebarLink,
   SidebarWrapper,
-  SidebarMenu,
-  Design,
 } from "./SidebarElements";
 import ContactMePicture from "../../assets/ContactMe.png";
 
@@ -20,119 +17,163 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <Box sx={{ mb: 2 }}>
-          <h1 style={{ textAlign: "center" }}>SOLUTIONS</h1>
+          <h1 style={{ textAlign: "center" }}>WORK EXPERIENCE</h1>
         </Box>
-        {/* Landing Page */}
-        <Box sx={{ width: "100%" }}>
-          <h4
-            style={{
-              textDecoration: "underline",
-              fontSize: "20px",
-              marginBottom: "10px",
-              textAlign: "center",
-            }}
-          >
-            Landing Page and Website
-          </h4>
-          <h4 style={{ textAlign: "center", fontSize: "18px" }}>
-            We specialize in creating minimalist website design that helps your
-            business stand out from the rest.
-          </h4>
-          <br />
-          <br />
-          <h4 style={{ fontSize: "18px" }}>
-            What we want to achieve for your website:
-          </h4>
-          <br />
-          <Box
-            sx={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-            }}
-          >
-            <h4 style={{ fontSize: "16px" }}>- Target audiences</h4>
-            <h4 style={{ fontSize: "16px" }}>
-              - Values that your company brings
-            </h4>
-            <h4 style={{ fontSize: "16px" }}>- Content that engages users</h4>
-            <h4 style={{ fontSize: "16px" }}>- Call to Action Plan</h4>
-          </Box>
+        {/* INVOKE */}
+        <Box
+          style={{
+            marginTop: 30,
+            width: "100%",
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+            justifyContent: "space-between",
+          }}
+        >
+          <h4 style={{ fontSize: "20px" }}>INVOKE SDN. BHD.</h4>
+
+          <h4 style={{ fontSize: "20px", marginRight: 20 }}>2021 - Present</h4>
         </Box>
-        {/* 3D Animation */}
-        <Box sx={{ mt: 10 }}>
-          <h4
-            style={{
-              textDecoration: "underline",
-              fontSize: "20px",
-              marginBottom: "4px",
-              textAlign: "center",
-            }}
-          >
-            3D Animation
-          </h4>
-          <h4 style={{ fontSize: "18px", textAlign: "center" }}>
-            We customize and create 3D components to help your website stand
-            out!
-          </h4>
-          <Box
-            sx={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <Design
-              src={ContactMePicture}
-              width="250px"
-              height="250px"
-              alt=""
-            />
-          </Box>
-        </Box>
-        {/* Maintenance */}
-        <Box sx={{ mt: 10 }}>
-          <h4
-            style={{
-              textDecoration: "underline",
-              fontSize: "20px",
-              marginBottom: "4px",
-              textAlign: "center",
-            }}
-          >
-            Maintenance
-          </h4>
-          <h3
-            style={{
-              color: "white",
-              marginTop: 20,
-              fontSize: "18px",
-              textAlign: "center",
-            }}
-          >
-            Trouble in navigating your website and needing to consistently
-            update the content? <br /> <br />
-            No worries! <br /> <br /> We can do it for you!
+        <Box
+          style={{
+            marginTop: 20,
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "start",
+          }}
+        >
+          <h3 style={{ color: "white", marginTop: 20, fontSize: "20px" }}>
+            Frontend React Developer
           </h3>
           <Box
             sx={{
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
+              mt: 2,
             }}
           >
-            <h1
-              style={{
-                color: "white",
-                marginTop: 20,
-                fontSize: "16px",
-              }}
-            >
-              - WordPress Maintenance
-            </h1>
-            <h1 style={{ fontSize: "16px" }}>- Woocommerce Maintenance</h1>
-            <h1 style={{ fontSize: "16px" }}>- Content Updates</h1>
+            <h3 style={{ color: "white", marginTop: 20, fontSize: "20px" }}>
+              Adnexio EDU
+            </h3>
+            <h3 style={{ color: "white", marginTop: 20, fontSize: "16px" }}>
+              • Designed and implemented customizable components for web
+              applications using React.
+            </h3>
+            <h3 style={{ color: "white", marginTop: 20, fontSize: "16px" }}>
+              • Adhered to Agile methodologies, leading and participating in
+              sprint planning and execution, resulting in efficient and
+              effective delivery of projects.
+            </h3>
+            <h3 style={{ color: "white", marginTop: 20, fontSize: "16px" }}>
+              • Collaborated closely with backend engineers to integrate APIs
+              and ensure seamless data flow between the frontend and backend of
+              web applications.
+            </h3>
+          </Box>
+          <Box
+            sx={{
+              mt: 4,
+            }}
+          >
+            <h3 style={{ color: "white", marginTop: 20, fontSize: "20px" }}>
+              Adnexio HR Tech
+            </h3>
+            <h3 style={{ color: "white", marginTop: 20, fontSize: "16px" }}>
+              • Performed product management responsibilities, including
+              planning, coordinating and conducting User Acceptance Testing
+              (UAT), contributing to the success and delivery of web
+              applications.
+            </h3>
+            <h3 style={{ color: "white", marginTop: 20, fontSize: "16px" }}>
+              • Designed and executed UI/UX wireframes for HR Leave Management
+              System, ensuring a seamless and user-centered experience for
+              clients.
+            </h3>
+            <h3 style={{ color: "white", marginTop: 20, fontSize: "16px" }}>
+              • Developed customizable components using React.js and React
+              Native, ensuring versatile and cross-platform solutions for
+              managing their HR processes.
+            </h3>
+          </Box>
+          <Box
+            sx={{
+              mt: 4,
+            }}
+          >
+            <h3 style={{ color: "white", marginTop: 20, fontSize: "20px" }}>
+              Website Initiatives
+            </h3>
+            <h3 style={{ color: "white", marginTop: 20, fontSize: "16px" }}>
+              • Improved the website process flow by structuring and organizing
+              a Standard Operating Procedure (SOP), resulting in a more
+              efficient and user-friendly experience and increased engagement,
+              leading to higher conversions for the company.
+            </h3>
+            <h3 style={{ color: "white", marginTop: 20, fontSize: "16px" }}>
+              • Designed and implemented pricing packages as part of improving
+              the website process flow, resulting in clearer and more accessible
+              pricing options for customers
+            </h3>
+            <h3 style={{ color: "white", marginTop: 20, fontSize: "16px" }}>
+              • Conducted research and evaluated various plugins and tools to
+              enhance the website's features, ultimately improving the client
+              experience while reducing costs for the company.
+            </h3>
+          </Box>
+        </Box>
+        {/* SIME DARBY */}
+        <Box
+          style={{
+            marginTop: 100,
+            width: "100%",
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+            justifyContent: "space-between",
+          }}
+        >
+          <h4 style={{ fontSize: "20px" }}>SIME DARBY INDUSTRIAL SDN. BHD.</h4>
+
+          <h4 style={{ fontSize: "20px", marginRight: 20 }}>2019 - 2021</h4>
+        </Box>
+        <Box
+          style={{
+            width: "100%",
+            marginTop: 20,
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "start",
+          }}
+        >
+          <h3 style={{ color: "white", marginTop: 20, fontSize: "20px" }}>
+            Sales and Application Engineer
+          </h3>
+          <Box
+            sx={{
+              mt: 2,
+            }}
+          >
+            <h3 style={{ color: "white", marginTop: 20, fontSize: "16px" }}>
+              As a sales and application engineer for Viking Pumps and
+              Pulsafeeder Pumps in the southern region, I am responsible for
+              generating sales and serving as the single point of contact for
+              clients.
+            </h3>
+            <h3 style={{ color: "white", marginTop: 20, fontSize: "16px" }}>
+              • Achieved $1.2 million in sales with an average margin of 24% for
+              the company.
+            </h3>
+            <h3 style={{ color: "white", marginTop: 20, fontSize: "16px" }}>
+              • Acted as the single point of contact for clients, offering
+              technical support and assistance throughout the sales process.
+            </h3>
+            <h3 style={{ color: "white", marginTop: 20, fontSize: "16px" }}>
+              • Utilized strong negotiation skills to close deals and maintain
+              positive relationships with clients
+            </h3>
+            <h3 style={{ color: "white", marginTop: 20, fontSize: "16px" }}>
+              • Built strong, trust-based relationships with my clients by
+              taking the time to understand their needs and providing them with
+              personalized, solution-oriented customer service.
+            </h3>
           </Box>
         </Box>
       </SidebarWrapper>

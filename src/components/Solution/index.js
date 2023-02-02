@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import LandingPage from "./LandingPage";
-import Animation from "./Animation";
-import Maintenance from "./Maintenance";
+import Experiences from "./Experiences";
+import Education from "./Education";
+import Skills from "./Skills";
 import { Box } from "@mui/material";
 
 const Solution = () => {
@@ -38,7 +38,7 @@ const Solution = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.3, delay: 0.3 }}
           >
-            <LandingPage />
+            <Experiences />
           </Box>
         )}
         {showWork === 2 && (
@@ -48,7 +48,7 @@ const Solution = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.3, delay: 0.3 }}
           >
-            <Animation />
+            <Education />
           </Box>
         )}
         {showWork === 3 && (
@@ -62,7 +62,7 @@ const Solution = () => {
               alignSelf: "center",
             }}
           >
-            <Maintenance />
+            <Skills />
           </Box>
         )}
       </Box>

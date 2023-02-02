@@ -1,7 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Box } from "@mui/material";
+import { Box, Typography, Button } from "@mui/material";
 import { ContactLink } from "./ContactElements";
+import Pdf from "../../assets/WongCheeHoe_Resume_2023.pdf";
 
 const ContactMobile = ({ id }) => {
   return (
@@ -26,9 +27,7 @@ const ContactMobile = ({ id }) => {
         }}
       >
         <Box sx={{ mb: 5 }}>
-          <h1 style={{ color: "white", fontSize: 24 }}>
-            Ready To Collaborate?
-          </h1>
+          <h1 style={{ color: "white", fontSize: 24 }}>Let's have a chat!</h1>
         </Box>
         <Box
           sx={{
@@ -71,9 +70,45 @@ const ContactMobile = ({ id }) => {
           >
             <ContactLink>+6019 - 650 2682</ContactLink>
           </motion.div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.5 }}
+          >
+            <h1 style={{ color: "white", fontSize: 22 }}>CV</h1>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.8 }}
+          >
+            <Button
+              href={Pdf}
+              target="_blank"
+              sx={{
+                backgroundColor: "#7325C1",
+
+                paddingX: 10,
+                "&:hover": {
+                  backgroundColor: "#CDCDCD",
+                },
+              }}
+            >
+              <Typography
+                sx={{
+                  color: "#FFF",
+                  fontWeight: 400,
+                }}
+              >
+                Download
+              </Typography>
+            </Button>
+          </motion.div>
         </Box>
       </Box>
-      <Box sx={{ marginTop: 30 }}>Click the top icon to see our services!</Box>
+      <Box sx={{ marginTop: 30 }}>
+        Click the top icon to see my work experiences
+      </Box>
     </Box>
   );
 };

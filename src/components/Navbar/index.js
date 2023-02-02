@@ -26,7 +26,7 @@ const Navbar = ({ setPageState, isOpen, toggle }) => {
           </NavbarLink>
 
           <NavbarLink onClick={() => setPageState("solution")}>
-            Solutions
+            Experience
           </NavbarLink>
 
           <NavbarLink onClick={() => setPageState("contact")}>
