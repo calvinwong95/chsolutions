@@ -1,20 +1,24 @@
 {
   "files": {
     "main.css": "/chsolutions/static/css/main.be654bae.css",
-    "main.js": "/chsolutions/static/js/main.33ff663c.js",
-    "static/js/526.63dc57f9.chunk.js": "/chsolutions/static/js/526.63dc57f9.chunk.js",
-    "static/js/232.0f586be3.chunk.js": "/chsolutions/static/js/232.0f586be3.chunk.js",
+    "main.js": "/chsolutions/static/js/main.a24709c1.js",
+    "static/js/227.b056c538.chunk.js": "/chsolutions/static/js/227.b056c538.chunk.js",
+    "static/js/526.aa2f75e7.chunk.js": "/chsolutions/static/js/526.aa2f75e7.chunk.js",
+    "static/js/232.3f087676.chunk.js": "/chsolutions/static/js/232.3f087676.chunk.js",
+    "static/js/237.f5ff9b8a.chunk.js": "/chsolutions/static/js/237.f5ff9b8a.chunk.js",
     "static/media/WongCheeHoe_Resume_2023.pdf": "/chsolutions/static/media/WongCheeHoe_Resume_2023.7f3552c6e76ee09e9cd1.pdf",
     "static/media/ContactMe.png": "/chsolutions/static/media/ContactMe.0cccd510f9cec67c2d0e.png",
     "static/media/ch.png": "/chsolutions/static/media/ch.e8a2a5441e2eb14aa023.png",
     "index.html": "/chsolutions/index.html",
     "main.be654bae.css.map": "/chsolutions/static/css/main.be654bae.css.map",
-    "main.33ff663c.js.map": "/chsolutions/static/js/main.33ff663c.js.map",
-    "526.63dc57f9.chunk.js.map": "/chsolutions/static/js/526.63dc57f9.chunk.js.map",
-    "232.0f586be3.chunk.js.map": "/chsolutions/static/js/232.0f586be3.chunk.js.map"
+    "main.a24709c1.js.map": "/chsolutions/static/js/main.a24709c1.js.map",
+    "227.b056c538.chunk.js.map": "/chsolutions/static/js/227.b056c538.chunk.js.map",
+    "526.aa2f75e7.chunk.js.map": "/chsolutions/static/js/526.aa2f75e7.chunk.js.map",
+    "232.3f087676.chunk.js.map": "/chsolutions/static/js/232.3f087676.chunk.js.map",
+    "237.f5ff9b8a.chunk.js.map": "/chsolutions/static/js/237.f5ff9b8a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.be654bae.css",
-    "static/js/main.33ff663c.js"
+    "static/js/main.a24709c1.js"
   ]
 }
